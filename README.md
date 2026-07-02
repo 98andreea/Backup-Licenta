@@ -1,4 +1,4 @@
-TITLU LUCRARE DE LICENȚĂ: Sistem informatic pentru managementul proiectelor utilizând tehnologia Oracle APEX
+**TITLU LUCRARE DE LICENȚĂ: Sistem informatic pentru managementul proiectelor utilizând tehnologia Oracle APEX**
 
 STUDENT: Andreea-Florentina Roșu
 
@@ -18,13 +18,13 @@ Scripturile SQL pentru structura bazei de date (tabele, triggere/funcții, popul
 
 
 
-2\. Adresa repository-ului
+2. Adresa repository-ului
 
 https://github.com/98andreea/Backup-Licenta
 
 
 
-3\. Pașii de compilare ai aplicației:
+3. Pașii de compilare ai aplicației:
 
 Aplicația creată în Oracle APEX nu necesită o compilare tradițională (precum Java sau C++), deoarece rulează direct pe baza de date. „Compilarea” logică se realizează automat în momentul importului fișierelor SQL în platforma Oracle APEX.
 
