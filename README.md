@@ -1,74 +1,59 @@
-**TITLU LUCRARE DE LICENȚĂ: Sistem informatic pentru managementul proiectelor utilizând tehnologia Oracle APEX**
 
-STUDENT: Andreea-Florentina Roșu
+# **LUCRARE DE LICENȚĂ: Sistem informatic pentru managementul proiectelor utilizând tehnologia Oracle APEX**
 
-SPECIALIZAREA: Informatică
+*STUDENT: Andreea-Florentina Roșu*
 
-Anul: 2026
+*SPECIALIZAREA: Informatică*
 
-
-
-1. Livrabilele proiectului:
-
-Codul sursă al aplicației: Roșu\_Andreea-Florentina\_Informatică\_Licență.sql
-
-Scripturile SQL pentru structura bazei de date (tabele, triggere/funcții, populare date): Schema\_PM.sql, Triggers\_PM.sql, Date\_PM.sql
+*Anul: 2026*
 
 
 
 
 
-2. Adresa repository-ului
+
+## 1. Livrabilele proiectului:
+
+* Codul sursă al aplicației: Roșu\_Andreea-Florentina\_Informatică\_Licență.sql 
+
+* Scripturile SQL pentru structura bazei de date (tabele, triggere/funcții, populare date: 
+    * Schema\_PM.sql
+    * Triggers\_PM.sql
+    * Date\_PM.sql
+
+
+## 2. Adresa repository-ului
 
 https://github.com/98andreea/Backup-Licenta
 
 
+## 3. Pașii de compilare ai aplicației:
 
-3. Pașii de compilare ai aplicației:
-
-Aplicația creată în Oracle APEX nu necesită o compilare tradițională (precum Java sau C++), deoarece rulează direct pe baza de date. „Compilarea” logică se realizează automat în momentul importului fișierelor SQL în platforma Oracle APEX.
-
+Aplicația creată în Oracle APEX nu necesită o compilare tradițională, precum Java sau C, deoarece rulează direct pe baza de date. Compilarea se realizează automat în momentul importului fișierelor SQL în platforma Oracle APEX.
 
 
-
-
-4\. Pașii de instalare și lansare a aplicației
+## 4. Pașii de instalare și lansare a aplicației
 
 
 
-4.1. Configurarea Bazei de Date
+4.1. **Configurarea Bazei de Date**
 
-Accesați SQL Workshop în instanța Oracle.
-
-
-
-Mergeți la SQL Scripts și încărcați fișierele: Schema\_PM.sql, Triggers\_PM.sql, Date\_PM.sql
+* Accesați SQL Workshop în instanța Oracle.
+* Mergeți la SQL Scripts și încărcați fișierele: Schema\_PM.sql, Triggers\_PM.sql, Date\_PM.sql
+* Apăsați Run pentru a executa scriptule care creează tabelele, triggerele și funcțiile necesare.
 
 
 
-Apăsați Run pentru a executa scriptule care creează tabelele, triggerele și funcțiile necesare.
+4.2. Importul aplicației
+
+* Accesați App Builder în mediul APEX.
+* Selectați Import și încărcați fișierul Roșu\_Andreea-Florentina\_Informatică\_Licență.sql.
+* Urmați pașii din „Import Wizard” (se vor utiliza setările implicite) până la finalizarea instalării.
 
 
 
-4.2. Importul Aplicației
+4.3. Lansarea aplicației
 
-Accesați App Builder în mediul APEX.
-
-
-
-Selectați Import și încărcați fișierul Roșu\_Andreea-Florentina\_Informatică\_Licență.sql.
-
-
-
-Urmați pașii din „Import Wizard” (se vor utiliza setările implicite) până la finalizarea instalării.
-
-
-
-4.3. Lansarea Aplicației
-
-După instalare, selectați aplicația din App Builder.
-
-
-
-Apăsați butonul Run Application, din colțul dreapta sus pentru a accesa interfața grafică a sistemului.
+* După instalare, selectați aplicația din App Builder.
+* Apăsați butonul Run Application, din colțul dreapta sus pentru a accesa interfața grafică a sistemului.
 
